@@ -1,5 +1,5 @@
 # RTR105
-##Datormācības kursa elektroniskā klāde
+## Datormācības kursa elektroniskā klāde
 
 *Ctrl+Shift+T* - jauns logs  
 *Ctrl+Alt+T* - iestartet terminalu  
