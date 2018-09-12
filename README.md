@@ -17,4 +17,12 @@
 *whoami* - kas es esmu (print effective userid)  
 *who* - show who is logged on  
 *pwd* - kur es atrodos attiecība pret failu sistemu (print name of current/working directory)  
-*ls* -  
+*ls* -  atvert mapes (list directory contents)
+*ls -l* -  use a long listing format  
+*ls -a* - visi objekti, kas sakas ar punktu  
+*ls -la* - detalizets apraksts visiem objektiem  
+*history* - paskatities vesturi  
+*ls -ls* - parskatit mapes, tas vardu, kad bija instaleti vai modificeti
+*history > nosaukums.txt* - saglabat kada konkreta mapē  
+
+
