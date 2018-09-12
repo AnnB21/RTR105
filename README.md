@@ -1,7 +1,7 @@
 # RTR105
 ##**Datormācības kursa elektroniskā klāde**
 
-*Ctrl+Shift+T* - jauna ...  
+*Ctrl+Shift+T* - jauns logs  
 *Ctrl+Alt+T* - iestartet terminalu  
 *U+Tab2x* - paradit visas terminala iespejas 
 *Ctrl+L* - notirit ekranu  
