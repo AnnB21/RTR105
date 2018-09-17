@@ -1,6 +1,7 @@
 ē# RTR105
 ## Datormācības kursa elektroniskā klāde
-
+ 
+***
 *Ctrl+Shift+T* - jauns logs  
 *Ctrl+Alt+T* - iestartet terminalu  
 *U+Tab2x* - paradit visas terminala iespejas 
@@ -36,13 +37,13 @@
 **Piemērs:   
 echo "Teksts"  
 Teksts**  
-*echo -e* **nosukums/nnosaukums** - jauna linija  
-**Piemērs:  
-echo -e "Teksts/nTeksts/nTeksts"  
-Teksts 
-Teksts 
-Teksts** 
-*>* - saglabat kaut kada mapē 
+*echo -e* **nosukums/nnosaukums** - jauna linija   
+**Piemērs:   
+echo -e "Teksts/nTeksts/nTeksts"   
+Teksts  
+Teksts  
+Teksts**  
+*>* - saglabat kaut kada mapē   
 *cat nosaukums.txt 
 more nosaukums.txt 
 less nosaukums.txt* -apskatit failu 
