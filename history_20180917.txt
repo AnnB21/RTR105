@@ -1,0 +1,105 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  who
+    5  pwd
+    6  ls
+    7  ls -l
+    8  cd Music/
+    9  pwd
+   10  ls
+   11  ls -a
+   12  ls -la
+   13  pwd
+   14  cd .
+   15  pwd
+   16  cd ..
+   17  pwd
+   18  cd .
+   19  pwd
+   20  cd..
+   21  cd ..
+   22  pwd
+   23  ls -la
+   24  cd ..\
+   25  pwd
+   26  cd .
+   27  cd /home/user/
+   28  pwd
+   29  cd /
+   30  pwd
+   31  cd ..
+   32  cd /home/user/
+   33  pwd
+   34  cd .
+   35  pwd
+   36  cd /home/user/
+   37  pwd
+   38  cd /
+   39  pwd
+   40  cd~
+   41  cd /
+   42  pwd
+   43  cd ~
+   44  cd
+   45  pwd
+   46  mkdir ManaMape
+   47  ls -l
+   48  cd ManaMape/
+   49  pwd
+   50  ls
+   51  ls -la
+   52  cd ..
+   53  pwd
+   54  rmdir ManaMape/
+   55  ls -l
+   56  mkdir ManaMape
+   57  cd ManaMape/
+   58  mkdir ManaApakshMape
+   59  cd ManaApakshMape/
+   60  pwd
+   61  rmdir ManaMape/
+   62  cd ..
+   63  pwd
+   64  cd ..
+   65  pwd
+   66  man rmdir
+   67  man rm
+   68  rm -r ManaMape/
+   69  ls l
+   70  ls -l
+   71  man echo
+   72  echo "Teksts"
+   73  echo "Teksts
+   74  Teksts
+   75  teksts
+   76  "
+   77  echo "Teksts\nTeksts\nTeksts"
+   78  man echo
+   79  echo -e  "Teksts\nTeksts\nTeksts"
+   80  echo "Teksts" > fails1.txt
+   81  ls -l
+   82  cat fails1.txt
+   83  more fails1.txt
+   84  less fails1.txt
+   85  echo "Papildus teksts" > fails.txt
+   86  ls -l
+   87  echo "Papildus teksts" > teksts1.txt
+   88  ls -l
+   89  echo "Teksts" > fails1.txt
+   90  cat fails1.txt
+   91  echo "Papildus teksts" >> fails1.txt
+   92  cat fails1.txt
+   93  ls -l
+   94  nano fails1.txt
+   95  ls -l
+   96  nano fails1.txt
+   97  chmod 540 fails1.txt
+   98  ls -l'
+   99  "
+  100  ls -l
+  101  rm fails*.txt
+  102  ls -l
+  103  man rm
+  104  history
+  105  history > history_20180917.txt
