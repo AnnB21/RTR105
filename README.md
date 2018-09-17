@@ -23,6 +23,7 @@
 *ls -la* - detalizets apraksts visiem objektiem  
 *history* - paskatities vesturi  
 *ls -ls* - parskatit mapes, tas vardu, kad bija instaleti vai modificeti 
+
 *history > nosaukums.txt* - saglabat kada konkreta mapē 
 *cd (pilnas adreses nosaukums)* - parvietoties kadā konkretā mapē 
 . - tekoša direktorija (solis uz vietas) 
