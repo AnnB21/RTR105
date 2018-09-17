@@ -43,26 +43,26 @@ echo -e "Teksts/nTeksts/nTeksts"
 Teksts  
 Teksts  
 Teksts**  
-*>* - saglabat kaut kada mapē   
-*cat nosaukums.txt 
-more nosaukums.txt 
-less nosaukums.txt* -apskatit failu 
-*>>* - papildinat failu 
-**Piemērs: 
-  echo "Teksts" . fails1.txt 
-  cat fails1.txt 
+*>* - saglabat kaut kada mapē    
+*cat nosaukums.txt  
+more nosaukums.txt  
+less nosaukums.txt* -apskatit failu  
+*>>* - papildinat failu  
+**Piemērs:  
+  echo "Teksts" . fails1.txt  
+  cat fails1.txt  
+Teksts  
+  echo "papild teksts" >> fails1.txt  
+  cat gails1.txt  
 Teksts 
-  echo "papild teksts" >> fails1.txt 
-  cat gails1.txt 
-Teksts 
-papild tekst** 
-*nano nosaukums.txt* - papildinat failu  
-*chmod* - mainit tiesibas  
-*Ctrl+X* - saglabat izmaiņas 
-*cp (vards, kuru kopejam)(vards kopetam(jaunam) failam)* - kopēt 
-*mv *1*.*txt Music/* - parcelt ko? kur? 
-*../* - limenis augstāk 
-*ls mapes_nosaukums/* - apskatit mapes saturu 
+papild tekst**   
+*nano nosaukums.txt* - papildinat failu   
+*chmod* - mainit tiesibas   
+*Ctrl+X* - saglabat izmaiņas  
+*cp (vards, kuru kopejam)(vards kopetam(jaunam) failam)* - kopēt  
+*mv *1*.*txt Music/* - parcelt ko? kur?  
+*../* - limenis augstāk  
+*ls mapes_nosaukums/* - apskatit mapes saturu  
 
 
 
