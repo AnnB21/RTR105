@@ -29,16 +29,16 @@
 .. - saknes apgabals  
 *cd ~* - relativa adrese (tilde)  
 *cd /* -absoluta adrese (iziet uz home)  
-*mkdir* -uztaisit mapi 
-*rmdir* - nodzest mapi 
-*rm -r ManaMape/* -nodzest mapi 
-*echo* - attelot tekstu  
+*mkdir* -uztaisit mapi  
+*rmdir* - nodzest mapi  
+*rm -r ManaMape/* -nodzest mapi  
+*echo* - attelot tekstu   
+**Piemērs:   
+echo "Teksts"  
+Teksts**  
+*echo -e* **nosukums/nnosaukums** - jauna linija  
 **Piemērs:  
-echo "Teksts" 
-Teksts** 
-*echo -e* **nosukums/nnosaukums** - jauna linija 
-**Piemērs: 
-echo -e "Teksts/nTeksts/nTeksts" 
+echo -e "Teksts/nTeksts/nTeksts"  
 Teksts 
 Teksts 
 Teksts** 
