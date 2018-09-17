@@ -27,10 +27,10 @@
 *cd (pilnas adreses nosaukums)* - parvietoties kadā konkretā mapē 
 . - tekoša direktorija (solis uz vietas) 
 .. - saknes apgabals 
-*cd ~* - relativa adrese (tilde) 
-*cd /* -absoluta adrese (iziet uz home) 
-*mkdir* -uztaisit mapi
-*rmdir* - nodzest mapi
+*cd ~* - relativa adrese (tilde)  
+*cd /* -absoluta adrese (iziet uz home)  
+*mkdir* -uztaisit mapi 
+*rmdir* - nodzest mapi 
 *rm -r ManaMape/* -nodzest mapi 
 *echo* - attelot tekstu  
 **Piemērs:  
