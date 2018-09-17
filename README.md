@@ -16,13 +16,13 @@
 *bash* - shell valoda (draudziga valoda)  
 *whoami* - kas es esmu (print effective userid)  
 *who* - show who is logged on  
-*pwd* - kur es atrodos attiecība pret failu sistemu (print name of current/working directory)  
-*ls* -  atvert mapes (list directory contents)
+*pwd* - kur es atrodos attiecība pret failu sistemu (print name of current/working directory)   
+*ls* -  atvert mapes (list directory contents) 
 *ls -l* -  apskatit mapes (use a long listing format)   
 *ls -a* - apskatit visus objektus, kas sakas ar punktu  
 *ls -la* - detalizets apraksts visiem objektiem  
 *history* - paskatities vesturi  
-*ls -ls* - parskatit mapes, tas vardu, kad bija instaleti vai modificeti
+*ls -ls* - parskatit mapes, tas vardu, kad bija instaleti vai modificeti 
 *history > nosaukums.txt* - saglabat kada konkreta mapē 
 *cd (pilnas adreses nosaukums)* - parvietoties kadā konkretā mapē 
 . - tekoša direktorija (solis uz vietas) 
@@ -31,7 +31,7 @@
 *cd /* -absoluta adrese (iziet uz home) 
 *mkdir* -uztaisit mapi
 *rmdir* - nodzest mapi
-*rm -r ManaMape/* -nodzest mapi
+*rm -r ManaMape/* -nodzest mapi 
 *echo* - attelot tekstu  
 **Piemērs:  
 echo "Teksts" 
@@ -43,8 +43,8 @@ Teksts
 Teksts 
 Teksts** 
 *>* - saglabat kaut kada mapē 
-*cat nosaukums.txt
-more nosaukums.txt
+*cat nosaukums.txt 
+more nosaukums.txt 
 less nosaukums.txt* -apskatit failu 
 *>>* - papildinat failu 
 **Piemērs: 
