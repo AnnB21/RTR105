@@ -28,7 +28,7 @@
 *cd (pilnas adreses nosaukums)* - parvietoties kadā konkretā mapē  
 . - tekoša direktorija (solis uz vietas)  
 .. - saknes apgabals  
-*cd ~* - relativa adrese (tilde)  
+*cd* ~ - relativa adrese (tilde)  
 *cd /* -absoluta adrese (iziet uz home)  
 *mkdir* -uztaisit mapi  
 *rmdir* - nodzest mapi  
@@ -66,8 +66,8 @@ papild tekst**
 *nano mans_skripts.sh* - izveidot jaunu skriptu  
 *#!/bin/bash* - norada ar kādu valodu talāk rakstisim  
 * echo $PATH* - svarigas adreses, ceļi  
-*PATH=$PATH:~  
-or  
+*PATH=$PATH:*~  
+*or  
 PATH=$PATH:/home/user* - add directory to $PATH    
 *git clone https://github.com/AnnB21/RTR105* - clone a repositary into a new directory  
   
