@@ -62,7 +62,14 @@ papild tekst**
 *cp (vards, kuru kopejam)(vards kopetam(jaunam) failam)* - kopēt  
 *mv *1*.*txt Music/* - parcelt ko? kur?  
 *../* - limenis augstāk  
-*ls mapes_nosaukums/* - apskatit mapes saturu  
+*ls mapes_nosaukums/* - apskatit mapes saturu 
+*nano mans_skripts.sh* - izveidot jaunu skriptu 
+*#!/bin/bash* - shell valoda 
+*echo $PATH* - svarigas adreses 
+*PATH=$PATH:~ 
+or 
+PATH=$PATH:/home/user* - mainam ceļu failam 
+*git clone https://github.com/AnnB21/RTR105* -
 
 
 
