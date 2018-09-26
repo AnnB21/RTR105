@@ -8,7 +8,7 @@
 *Ctrl+L* - notirit ekranu  
 *Ctrl+Alt+F1* - uz visu ekranu  
 *Ctrl+Alt+F7* - iziet no visa ekrana  
-*Q* - atgriezties pe **man** izmantošanas  
+*Q* - atgriezties pe **man** izmantošanas   
 *uname* - komanda (print system information)  
 *man* - nosaukums, apraksts 
 *uname -burts* - atrast komandu pec pirma burta  
