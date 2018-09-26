@@ -69,7 +69,7 @@ papild tekst**
 *PATH=$PATH:~  
 or  
 PATH=$PATH:/home/user* - add directory to $PATH    
-*get clone https://github.com/AnnB21/RTR105* - clone a repositary into a new directory  
+*git clone https://github.com/AnnB21/RTR105* - clone a repositary into a new directory  
   
 
 
