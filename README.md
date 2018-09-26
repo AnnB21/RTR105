@@ -70,7 +70,7 @@ papild tekst**
 or 
 PATH=$PATH:/home/user* - mainam ceļu failam 
 *git clone https://github.com/AnnB21/RTR105* -
-
+ 
 
 
 
