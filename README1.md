@@ -65,7 +65,7 @@ papild tekst**
 *ls mapes_nosaukums/* - apskatit mapes saturu  
 *nano mans_skripts.sh* - izveidot jaunu skriptu  
 *#!/bin/bash* - norada ar kādu valodu talāk rakstisim  
-* echo $PATH* - svarigas adreses, ceļi  
+*echo $PATH* - svarigas adreses, ceļi  
 *PATH=$PATH:*~  
 *or  
 PATH=$PATH:/home/user* - add directory to $PATH    
