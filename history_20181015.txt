@@ -1,0 +1,11 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls -l
+    4  git clone https://github.com/AnnB21/RTR105
+    5  cd RTR105
+    6  python
+    7  ipython
+    8  nano dgr_20181015a.txt
+    9  ls -lt
+   10  cat dgr_20181015a.py 
+   11  history > history_20181015.txt
