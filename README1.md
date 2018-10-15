@@ -37,7 +37,7 @@
 **Piemērs:   
 echo "Teksts"  
 Teksts**  
-*echo -e* **nosukums/nnosaukums** - jauna linija   
+*echo -e* **nosukums/nnosaukums** - jauna linija  
 **Piemērs:   
 echo -e "Teksts/nTeksts/nTeksts"   
 Teksts  
