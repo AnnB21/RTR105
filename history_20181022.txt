@@ -1,0 +1,499 @@
+user@epk428-9:~$ ipython
+
+
+
+Python 3.6.4 |Anaconda, Inc.| (default, Jan 16 2018, 18:10:19) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.2.1 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: 
+
+
+
+
+
+
+
+
+
+In [1]: def thing():
+   ...:     print("Hello")
+   ...:     print("Fun")
+   ...:     
+
+In [2]: thing()
+Hello
+Fun
+
+In [3]: print("Zip")
+Zip
+
+In [4]: thing()
+Hello
+Fun
+
+In [5]: big=max("Hello world")
+
+In [6]: print(big)
+w
+
+In [7]: tiny=min("Hello world")
+
+In [8]: print(tiny)
+ 
+
+In [9]: def max(inp)
+  File "<ipython-input-9-36b63324e762>", line 1
+    def max(inp)
+                ^
+SyntaxError: invalid syntax
+
+
+In [10]: def max(inp):
+    ...:     blah
+    ...:     blah
+    ...: for x in inp:
+    ...:     blah
+    ...:     blah
+    ...:     
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-10-56dfb2eb93e7> in <module>()
+      2     blah
+      3     blah
+----> 4 for x in inp:
+      5     blah
+      6     blah
+
+NameError: name 'inp' is not defined
+
+In [11]: print(float(99)/100)
+0.99
+
+In [12]: i = 42
+
+In [13]: type(i)
+Out[13]: int
+
+In [14]: f = float(i)
+
+In [15]: print(f)
+42.0
+
+In [16]: type(f)
+Out[16]: float
+
+In [17]: print(1+2*float(3)/4-5)
+-2.5
+
+In [18]: sval="123"
+
+In [19]: type(sval)
+Out[19]: str
+
+In [20]: print(sval+1)
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-20-d31b14f87b22> in <module>()
+----> 1 print(sval+1)
+
+TypeError: must be str, not int
+
+In [21]: ival=int(sval)
+
+In [22]: type(ival)
+Out[22]: int
+
+In [23]: print(ival+1)
+124
+
+In [24]: nsv="hello bob"
+
+In [25]: niv=int(nsv)
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-25-83956cafa918> in <module>()
+----> 1 niv=int(nsv)
+
+ValueError: invalid literal for int() with base 10: 'hello bob'
+
+In [26]: print("I'm a lumberjack and I'm okay.")
+I'm a lumberjack and I'm okay.
+
+In [27]: print("I sleep all night and I work all day.")
+I sleep all night and I work all day.
+
+In [28]: x= 5
+
+In [29]: print("Hello")
+Hello
+
+In [30]: def print_lyrics():
+    ...:     print("I'm a lumberjack and I'm okay.")
+    ...:     print("I sleep all night and work all day.")
+    ...:     
+
+In [31]: print("Yo")
+Yo
+
+In [32]: x=x+2
+
+In [33]: print(x)
+7
+
+In [34]: x= 5
+
+In [35]: print("Hello")
+Hello
+
+In [36]: def print_lyrics():
+    ...:     print("I'm a lumberjack and I'm okay.")
+    ...:     print("I sleep all night and work all day.")
+    ...:     
+
+In [37]: print("Yo")
+Yo
+
+In [38]: print_lyrics()
+I'm a lumberjack and I'm okay.
+I sleep all night and work all day.
+
+In [39]: x=x+2
+
+In [40]: print(x)
+7
+
+In [41]: def greet(lang):
+    ...:     if lang =='es':
+    ...:         print("Hola")
+    ...:     elf lang =='fr':    
+  File "<ipython-input-41-45d85aa5cfe7>", line 4
+    elf lang =='fr':
+           ^
+SyntaxError: invalid syntax
+
+
+In [42]: def greet(lang):
+    ...:     if lang =='es':
+    ...:         print("Hola")
+    ...:     elif lang =='fr':
+    ...:         print("Bonjour")
+    ...:     else:
+    ...:         print("Hello")
+    ...:                 
+
+In [43]: greet(en)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-43-e83a4912d00f> in <module>()
+----> 1 greet(en)
+
+NameError: name 'en' is not defined
+
+In [44]: greet("en")
+Hello
+
+In [45]: greet("es")
+Hola
+
+In [46]: greet("fr")
+Bonjour
+
+In [47]: def greet():
+    ...:     return"Hello"
+    ...: 
+
+In [48]: print(greet(),"Glenn")
+Hello Glenn
+
+In [49]: print(greet(),"Sally")
+Hello Sally
+
+In [50]: def greet(lang):
+    ...:     if lang =='es':
+    ...:         print("Hola")
+    ...:     elif lang =='fr':
+    ...:         print("Bonjour")
+    ...:     else:
+    ...:         print("Hello")
+    ...:                 
+
+In [51]: print(greet("en"),"Glenn")
+Hello
+None Glenn
+
+In [52]: def greet(lang):
+    ...:     if lang =='es':
+    ...:         return "Hola"
+    ...:     elif lang =='fr':
+    ...:         return "Bonjour"
+    ...:     else:
+    ...:         return "Hello"
+    ...:     
+    ...:                 
+
+In [53]: print(greet("en"),"Glenn")
+Hello Glenn
+
+In [54]: print(greet("es"),"Sally")
+Hola Sally
+
+In [55]: print(greet("fr"),"Michael")
+Bonjour Michael
+
+In [56]: def max(inp):
+    ...:     blah
+    ...:     blah
+    ...: for x in inp:
+    ...:     blah
+    ...:     blah
+    ...: return "w"    
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-56-7d2e5b913aec> in <module>()
+      2     blah
+      3     blah
+----> 4 for x in inp:
+      5     blah
+      6     blah
+
+NameError: name 'inp' is not defined
+
+In [57]: big=max("Hello world")
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-57-49d4610e93ca> in <module>()
+----> 1 big=max("Hello world")
+
+<ipython-input-56-7d2e5b913aec> in max(inp)
+      1 def max(inp):
+----> 2     blah
+      3     blah
+      4 for x in inp:
+      5     blah
+
+NameError: name 'blah' is not defined
+
+
+In [58]: big=max("Hello world")
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-58-49d4610e93ca> in <module>()
+----> 1 big=max("Hello world")
+
+<ipython-input-56-7d2e5b913aec> in max(inp)
+      1 def max(inp):
+----> 2     blah
+      3     blah
+      4 for x in inp:
+      5     blah
+
+NameError: name 'blah' is not defined
+
+In [59]: def amx(inp):
+    ...:     blah
+    ...:     blah
+    ...:     
+
+In [60]: for x in inp:
+    ...:     blah
+    ...:     blah
+    ...:     
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-60-b94b71bda2b0> in <module>()
+----> 1 for x in inp:
+      2     blah
+      3     blah
+      4 
+
+NameError: name 'inp' is not defined
+
+In [61]: return "w"
+  File "<ipython-input-61-310da4850856>", line 1
+    return "w"
+              ^
+SyntaxError: 'return' outside function
+
+
+In [62]: def max(inp):
+    ...:     blah
+    ...:     blah
+    ...: for x in inp:
+    ...:     blah
+    ...:     
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-62-a3b9d5df67f1> in <module>()
+      2     blah
+      3     blah
+----> 4 for x in inp:
+      5     blah
+      6 
+
+NameError: name 'inp' is not defined
+
+In [63]: def max(inp):
+    ...:     blah
+    ...:     blah
+    ...: for x in inp:
+    ...:     blah
+    ...:     blah
+    ...: return 'w'
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-63-acd8615335de> in <module>()
+      2     blah
+      3     blah
+----> 4 for x in inp:
+      5     blah
+      6     blah
+
+NameError: name 'inp' is not defined
+
+In [64]: def addtwo(a,b):
+    ...:     added=a+b
+    ...:     return added
+    ...: 
+
+In [65]: x=addtwo(3,5)
+
+In [66]: print(x)
+8
+
+In [67]: def computepay(h,r):
+    ...:     if h<40:
+    ...:         pay=h*r
+    ...:     elif h>40:
+    ...:         pay=40*r+(h-40)*r*1.5
+    ...:     return pay
+    ...: 
+
+In [68]: hrs = raw input("Enter Hours:")
+  File "<ipython-input-68-6328feca976f>", line 1
+    hrs = raw input("Enter Hours:")
+                  ^
+SyntaxError: invalid syntax
+
+
+In [69]: def max(inp):
+    ...:     blah
+    ...:     blah
+    ...: for x in inp:
+    ...:     blah
+    ...:     blah
+    ...: return 'w'
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-69-acd8615335de> in <module>()
+      2     blah
+      3     blah
+----> 4 for x in inp:
+      5     blah
+      6     blah
+
+NameError: name 'inp' is not defined
+
+In [70]: dgr_20181022.py
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-70-87d95cd93962> in <module>()
+----> 1 dgr_20181022.py
+
+NameError: name 'dgr_20181022' is not defined
+
+In [71]: history > history_20181022.txt
+
+In [72]: ls -l
+total 40
+drwxr-xr-x 2 user user 4096 Feb 10  2016 Desktop/
+drwxrwxr-x 3 user user 4096 Mar  5  2018 Documents/
+drwxr-xr-x 2 user user 4096 Mar  5  2018 Downloads/
+drwxr-xr-x 2 user user 4096 Mar  5  2018 Music/
+drwxr-xr-x 2 user user 4096 Mar  5  2018 Pictures/
+drwxr-xr-x 2 user user 4096 Mar  5  2018 Public/
+drwxrwxr-x 3 user user 4096 Oct 22 16:09 RTR105/
+drwxr-xr-x 2 user user 4096 Mar  5  2018 Templates/
+drwxr-xr-x 2 user user 4096 Mar  5  2018 Videos/
+drwxrwxr-x 3 user user 4096 Feb  9  2016 VirtualBox VMs/
+
+In [73]: cd RTR105/
+/home/user/RTR105
+
+In [74]: -----------------------------------------------------------------------
+    ...: ----
+    ...: NameError                                 Traceback (most recent call l
+    ...: ast)
+    ...: <ipython-input-69-acd8615335de> in <module>()
+    ...:       2     blah
+    ...:       3     blah
+    ...: ----> 4 for x in inp:
+    ...:       5     blah
+    ...:       6     blah
+    ...: 
+    ...: NameError: name 'inp' is not defined
+    ...: 
+    ...: In [70]: dgr_20181022.py
+    ...: -----------------------------------------------------------------------
+    ...: ----
+    ...: NameError                                 Traceback (most recent call l
+    ...: ast)
+    ...: <ipython-input-70-87d95cd93962> in <module>()
+    ...: ----> 1 dgr_20181022.py
+    ...: 
+    ...: NameError: name 'dgr_20181022' is not defined
+    ...: 
+    ...: 
+
+
+  File "<tokenize>", line 152
+    File "<ipython-input-41-45d85aa5cfe7>", line 4
+    ^
+IndentationError: unindent does not match any outer indentation level
+
+
+In [75]: 
+
+In [75]: ls -l
+total 48
+-rw-rw-r-- 1 user user 6697 Oct 22 16:09 dgr_20181010.py
+-rw-rw-r-- 1 user user 6912 Oct 22 16:09 dgr_20181015a.py
+-rwxrwxr-x 1 user user  142 Oct 22 16:09 git-upload*
+-rw-rw-r-- 1 user user  388 Oct 22 16:09 history_20180912.txt
+-rw-rw-r-- 1 user user 1767 Oct 22 16:09 history_20180917.txt
+-rw-rw-r-- 1 user user  426 Oct 22 16:09 history_20180926.txt
+-rw-rw-r-- 1 user user  266 Oct 22 16:09 history_20181015.txt
+-rwxrwxr-x 1 user user   47 Oct 22 16:09 mans_skripts.sh*
+-rw-rw-r-- 1 user user 2565 Oct 22 16:09 README1.md
+-rw-rw-r-- 1 user user 2476 Oct 22 16:09 README.md
+
+In [76]: history > history_20181022.txt
+
+In [77]: ls -l
+total 48
+-rw-rw-r-- 1 user user 6697 Oct 22 16:09 dgr_20181010.py
+-rw-rw-r-- 1 user user 6912 Oct 22 16:09 dgr_20181015a.py
+-rwxrwxr-x 1 user user  142 Oct 22 16:09 git-upload*
+-rw-rw-r-- 1 user user  388 Oct 22 16:09 history_20180912.txt
+-rw-rw-r-- 1 user user 1767 Oct 22 16:09 history_20180917.txt
+-rw-rw-r-- 1 user user  426 Oct 22 16:09 history_20180926.txt
+-rw-rw-r-- 1 user user  266 Oct 22 16:09 history_20181015.txt
+-rwxrwxr-x 1 user user   47 Oct 22 16:09 mans_skripts.sh*
+-rw-rw-r-- 1 user user 2565 Oct 22 16:09 README1.md
+-rw-rw-r-- 1 user user 2476 Oct 22 16:09 README.md
+
+In [78]: dgr_20181022.py
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-78-87d95cd93962> in <module>()
+----> 1 dgr_20181022.py
+
+NameError: name 'dgr_20181022' is not defined
+
+In [79]: nano dgr_20181022.py
+  File "<ipython-input-79-c5b448258a71>", line 1
+    nano dgr_20181022.py
+                    ^
+SyntaxError: invalid syntax
+
+
