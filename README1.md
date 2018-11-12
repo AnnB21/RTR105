@@ -70,7 +70,7 @@ papild tekst**
 *or  
 PATH=$PATH:/home/user* - add directory to $PATH    
 *git clone https://github.com/AnnB21/RTR105* - clone a repositary into a new directory  
-  
+
 
 
 
