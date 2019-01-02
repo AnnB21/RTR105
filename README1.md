@@ -72,17 +72,22 @@ papild tekst**
 PATH=$PATH:/home/user* - add directory to $PATH    
 *git clone https://github.com/AnnB21/RTR105* - clone a repositary into a new directory  
 *cat* - look what is in the file  
-*head* - shows 10 first rows of the file (select rows)  
+*head* - shows 10 first rows of the file (select rows from the begining)  
 *head -n +3* - shows concrete number of rows(in this case 3)  
-*tail* - select rows  
+*tail* - select rows from the end
 *cut* - selects columns  
-*grep* - selects lines according to what they contain  
+*grep* - (ko meklet  kur meklet) selects lines according to what they contain  
 *-c: print a count of matching lines rather than the lines themselves  
 -h: do not print the names of files when searching multiple files  
 -i: ignore case (e.g., treat "Regression" and "regression" as matches)  
 -l: print the names of files that contain matches, not the matches  
 -n: print line numbers for matching lines  
 -v: invert the match, i.e., only show lines that don't match*  
+| - after one command is made another at once  
+*wc* -word count of words (-w), lines (-l) and characters (-c)  
+? - a single character
+[...] matches any one of the characters inside the square brackets 
+{...} matches any of the comma-separated patterns inside the curly brackets({*.txt, *.csv}  
 
 
 
