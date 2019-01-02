@@ -87,7 +87,11 @@ PATH=$PATH:/home/user* - add directory to $PATH
 *wc* -word count of words (-w), lines (-l) and characters (-c)  
 ? - a single character
 [...] matches any one of the characters inside the square brackets 
-{...} matches any of the comma-separated patterns inside the curly brackets({*.txt, *.csv}  
+{...} matches any of the comma-separated patterns inside the curly brackets({*.txt, *.csv} 
+echo $???*-variable name (put before USER -> repl(name of the user)
+*for **name of variable(filetype)** in **list(gif png jpg)**; do echo $filetype; done* -it will write the list in a column
+
+
 
 
 
