@@ -28,6 +28,7 @@
 *cd (pilnas adreses nosaukums)* - parvietoties kadā konkretā mapē  
 . - tekoša direktorija (solis uz vietas)  
 .. - saknes apgabals  
+! - re run the command  
 *cd* ~ - relativa adrese (tilde)  
 *cd /* -absoluta adrese (iziet uz home)  
 *mkdir* -uztaisit mapi  
@@ -70,7 +71,18 @@ papild tekst**
 *or  
 PATH=$PATH:/home/user* - add directory to $PATH    
 *git clone https://github.com/AnnB21/RTR105* - clone a repositary into a new directory  
-
+*cat* - look what is in the file  
+*head* - shows 10 first rows of the file (select rows)  
+*head -n +3* - shows concrete number of rows(in this case 3)  
+*tail* - select rows  
+*cut* - selects columns  
+*grep* - selects lines according to what they contain  
+*-c: print a count of matching lines rather than the lines themselves  
+-h: do not print the names of files when searching multiple files  
+-i: ignore case (e.g., treat "Regression" and "regression" as matches)  
+-l: print the names of files that contain matches, not the matches  
+-n: print line numbers for matching lines  
+-v: invert the match, i.e., only show lines that don't match*  
 
 
 
