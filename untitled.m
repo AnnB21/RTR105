@@ -6,8 +6,13 @@ Im = [10 25 55 60 190;
  Imv = mean(Im);
  
  V = min(Vm):0.01:max(Vm);
- C = [1 2 3 6];
- I = C(1)*V.^2 + C(2)*V.^1 + C(3)*V.^0;
+ C = polyfit(Vm, Imv, 2)%[0.01 0.02 0.03];
+%  I = C(1)*V.^2 + C(2)*V.^1 + C(3)*V.^0;
+ I = polyval(C,V);
  plot(Vm, Imv, 'k*', V, I)
+ xlabel('U, V')
+ ylabel('I, A')
+ title('Grafiks')
+ grid on
  
  
